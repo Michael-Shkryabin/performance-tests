@@ -1,4 +1,4 @@
-from client.http.client import HTTPClient
+from clients.http.client import HTTPClient
 from typing import TypedDict
 from httpx import Response
 
