@@ -58,6 +58,7 @@ class MakePurchaseOperationRequestDict(TypedDict):
     amount: int
     cardId: str
     accountId: str
+    category: str
 
 class MakeBillPaymentOperationRequestDict(TypedDict):
     """
